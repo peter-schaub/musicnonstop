@@ -13,7 +13,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.2",
     "siteFonts": [],
-    "uniqCompNum": 21,
+    "uniqCompNum": 10,
     "versionPublish": "4.8.2",
     "screenshot": "screenshot.png",
     "cookiesAlert": {
@@ -98,10 +98,10 @@
                 "showButtons": true,
                 "showText": false,
                 "showTitle": true,
-                "title": "Season 3 - <br>Harder than life",
+                "title": "Season 3 - Harder than life",
                 "contentAlign": "center",
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">Work in progress</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://drive.google.com/drive/folders/1YXsGdZ3YjwVp3VeUfA46xQNKFBiW3Rxv?usp=sharing\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Link to the m4a files</a>"
               }
             ]
           },
@@ -111,14 +111,19 @@
             "Theme"
           ],
           "_name": "slider",
-          "_anchor": "slider-j"
+          "_anchor": "slider-j",
+          "_styles": {
+            "H2": {
+              "font-size": "36px"
+            }
+          }
         },
         {
           "_params": {
             "logo": true,
             "showBrand": true,
             "showButtons": false,
-            "sticky": true,
+            "sticky": false,
             "collapsed": true,
             "transparent": true,
             "color": "#fff",
